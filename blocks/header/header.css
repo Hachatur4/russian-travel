@@ -1,5 +1,5 @@
 .header {
-	width: calc(100% - 96px);
+  width: calc(100% - 96px);
   margin-top: 28px;
   display: grid;
   grid-template-columns: 1fr calc(30px + 18px) 29px;
