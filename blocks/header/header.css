@@ -1,0 +1,25 @@
+.header {
+	width: calc(100% - 96px);
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: 1fr calc(30px + 18px) 29px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 896px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+  .header {
+    width: calc(100% - 32px);
+    grid-template-columns: 1fr calc(22px + 18px) 22px;
+  }
+}

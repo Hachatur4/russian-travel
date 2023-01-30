@@ -1,0 +1,23 @@
+.intro__box {
+  margin: 0;
+  width: 690px;
+  height: max-content;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+  .intro__box {
+    width: 690px;
+  }
+}
+
+@media screen and (min-width: 929px) and (max-width: 1024px) {
+  .intro__box {
+    width: 690px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 928px) {
+  .intro__box {
+    width: 100%;
+  }
+}

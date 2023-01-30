@@ -1,0 +1,34 @@
+.lead {
+  width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 56px auto 0;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+  .lead {
+    width: 984px;
+  }
+}
+
+@media screen and (min-width: 929px) and (max-width: 1024px) {
+  .lead {
+    width: 928px;
+    margin: 48px auto 0;
+  }
+}
+
+@media screen and (min-width: 544px) and (max-width: 928px) {
+  .lead {
+    width: 100%;
+    margin: 46px auto 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 543px) {
+  .lead {
+    width: 100%;
+    margin: 51px auto 0;
+  }
+}
