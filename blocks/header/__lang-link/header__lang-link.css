@@ -1,14 +1,14 @@
 .header__lang-link {
   display: inline-block;
   width: 30px;
-  height: 34px;
+  height: min-content;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
   font-style: normal;
-  line-height: 28px;
+  line-height: 117%;
   letter-spacing: 0em;
-  align-self: end;
+  align-self: center;
   text-align: left;
   text-decoration: none;
   color: #ffffff;
@@ -21,7 +21,6 @@
 @media screen and (min-width: 320px) and (max-width: 545px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 20px;
-    height: 27px;
+    line-height: 111%;
   }
 }
