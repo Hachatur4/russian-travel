@@ -17,5 +17,6 @@
   .photo-grid {
     width: calc(100% - 32px);
     gap: 12px;
+    margin: 64px auto 0;
   }
 }
